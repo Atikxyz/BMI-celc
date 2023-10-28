@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.app_area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#inputs{
+  width: 350px;
+  padding: 30px 15px;
+  background: #ddd;
+  border-radius: 10px;
+}
+#inputs input{
+  width: 100%;
+  outline: none;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+#inputs .btns{
+  display: flex;
+  justify-content: space-around;
+}
+#inputs button{
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
+
+#inputs #calculate{
+  background: #091ea9;
+}
+#inputs #reset{
+  background: #7d0606;
+}
+.bmi-result{
+  /* display: flex;
+  justify-content: center; */
+  padding: 20px;
+  background: #ddd;
+  width: 350px;
+  margin: auto;
+  border-radius: 5px;
+  text-align: center;
+  height: 100px;
+}
+.bmi-result div{
+  font-size: 22px;
+  font-weight: 700;
+}
+#showMsg{
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #1A5D1A;
+
+}
